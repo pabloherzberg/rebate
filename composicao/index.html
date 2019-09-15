@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas</title>
+</head>
+<body>
+  <canvas id="canvas" width="700" height="500" style="border:1px solid #d3d3d3;">
+     Se você visualizar esse texto, seu browser não suporta a tag canvas e HTML5.
+  </canvas>
+  <controles>
+    <ul>
+      <li> 
+        <input type="range" min='0' max='255' id="vermelho" name='vermelho'>
+        <label for="vermelho">Nível de vermelho</label>
+      </li>
+      <li>  
+        <input type="range" min='0' max='255' id="verde" name='verde'>
+        <label for="verde">Nível de verde</label>
+      </li>
+      <li>  
+        <input type="range" min='0' max='255' id="azul" name='azul'>
+        <label for="azul">Nível de azul</label>
+      </li>
+      <li>
+        <input type="range" min="1" max='100' name="velocidade" id="velocidade">
+        <label for="velocidade">velocidade</label>
+      </li>
+      <li>
+        <input type="range" min="1" max='44' name="giro" id="giro">
+        <label for="giro">giro</label>
+      </li>
+    </ul>
+   
+  
+  
+  </controles>
+  <script src="scripts/canvas.js"></script>
+</body>
+</html>
