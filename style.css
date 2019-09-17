@@ -1,0 +1,19 @@
+/*A primeira coisa a fazer é resetar a margin e o padding.
+Assim o canvas poderá ficar grudado no canto esquerdo da tela*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+    width = largura da tela
+    heith = tamanho da tela
+    max-width/height = o elemento utiliza a porcentagem passada.
+    overflow = esconde a barra de rolagem da tela no canto direito
+*/
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
